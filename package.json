@@ -4,13 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:backend": "json-server ./server/db.json --host=172.31.47.71 --watch --middlewares ./server/status-middleware.js"
+    "start:backend": "json-server ./src/db.json --middlewares ./src/status-middleware.js --host=172.31.47.71 --watch"
   },
   "dependencies": {
-    "express": "^4.17.1",
     "json-server": "^0.16.2"
-  },
-  "devDependencies": {
-    "json-server-auth": "^2.0.2"
   }
 }
+
