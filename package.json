@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:backend": "json-server ./src/db.json --middlewares ./src/status-middleware.js --host=172.31.47.71 --watch --port=3001"
+    "start:backend": "json-server ./src/db.json --middlewares ./src/status-middleware.js --host=172.31.47.71 --watch"
   },
   "dependencies": {
     "json-server": "^0.16.2"
